@@ -217,7 +217,7 @@ body {
 
 .section-text {
   font-size: var(--fs-6);
-  max-width: 70ch;
+  /* max-width: 70ch; */
 }
 
 .grid-list {
@@ -732,14 +732,14 @@ textarea.input-field {
 
 
 
-@media (min-width: 575px) {
+@media (min-width: 575px)  {
 
   /**
    * REUSED STYLE
    */
 
   .container {
-    max-width: 540px;
+    /* max-width: 540px; */
     width: 100%;
     margin-inline: auto;
   }
@@ -755,6 +755,12 @@ textarea.input-field {
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
   }
+
+/*  About */
+.about-banner {
+  max-width: 550px;
+}
+
 
   /* SERVICE */
   .card-text {
