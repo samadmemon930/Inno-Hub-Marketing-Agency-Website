@@ -436,6 +436,11 @@ body {
   color: inherit
 }
 
+.service-card .card-text{
+  font-size: var(--fs-5)
+}
+
+
 
 
 ;
@@ -720,12 +725,16 @@ textarea.input-field {
 /**
  * responsive for larger than 575px screen
  */
-@media (min-width: 250px) {
+@media (min-width: 500px) {
 
   .service,
   .about,
   .contact {
     padding-block: 100px;
+  }
+
+  .card-text {
+    font-size: 14px;
   }
 }
 
@@ -742,6 +751,7 @@ textarea.input-field {
     /* max-width: 540px; */
     width: 100%;
     margin-inline: auto;
+    padding-inline: 30px;
   }
 
   .service,
@@ -756,15 +766,15 @@ textarea.input-field {
     column-gap: 20px;
   }
 
-/*  About */
+ 
 .about-banner {
   max-width: 550px;
 }
 
 
   /* SERVICE */
-  .card-text {
-    font-size: 14px;
+  .about-content.section-text {
+    font-size: var(--fs-4);
   }
 
   /**
@@ -814,7 +824,8 @@ textarea.input-field {
    */
 
   .container {
-    max-width: 720px;
+    /* max-width: 720px; */
+    padding-inline: 50px;
   }
 
   .grid-list {
@@ -845,8 +856,8 @@ textarea.input-field {
   /**
    * SERVICE
    */
-  .card-text {
-    font-size: 16px;
+  .service-card .card-text {
+    font-size: var(--fs-6);
   }
 
 
@@ -1025,7 +1036,7 @@ textarea.input-field {
     --fs-3: 2.3rem;
   }
 
-  .card-text{
+  .service-card .card-text {
     font-size: 14px;
   }
 
@@ -1124,8 +1135,8 @@ textarea.input-field {
     --fs-3: 2.5rem;
   }
 
-  .card-text{
-    font-size: 16px;
+  .service-card .card-text{
+    font-size: var(--fs-6);
   }
 
 
