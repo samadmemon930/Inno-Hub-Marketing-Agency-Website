@@ -154,7 +154,7 @@ body {
 .btn {
   max-width: max-content;
   color: var(--white-1);
-  font-size: var(--fs-6);
+  font-size: 13px;
   font-weight: var(--fw-700);
   padding: 10px 30px;
   border-radius: var(--radius-5);
@@ -857,7 +857,7 @@ textarea.input-field {
    * SERVICE
    */
   .service-card .card-text {
-    font-size: var(--fs-6);
+    font-size: var(--fs-5);
   }
 
 
