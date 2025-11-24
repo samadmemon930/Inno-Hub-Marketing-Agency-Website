@@ -317,7 +317,7 @@ body {
 
 .navbar-list {
   padding: 20px 15px;
-  padding-block-start: 10px;
+  /* padding-block-start: 10px; */
   opacity: 0;
   transition: var(--transition-1);
 }
@@ -453,7 +453,7 @@ body {
   margin-block-end: 25px;
 }
 
-.play-btn {
+/* .play-btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -464,7 +464,7 @@ body {
   padding: 16px;
   border-radius: 50%;
   animation: pulse 1.5s ease-out infinite;
-}
+} */
 
 @keyframes pulse {
   0% {
@@ -714,6 +714,24 @@ textarea.input-field {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+/* Navbar links center for mobile to 991px */
+@media (max-width: 991px) {
+  .navbar-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .navbar-link {
+    text-align: center;
+    width: 100%;
+  }
+}
+
 
 /**
  * responsive for larger than 575px screen
@@ -1178,3 +1196,5 @@ textarea.input-field {
   }
 
 }
+
+
