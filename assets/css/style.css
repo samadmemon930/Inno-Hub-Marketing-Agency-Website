@@ -275,17 +275,11 @@ body {
 
 .nav-toggle-btn {
   background: none;
-  /* background remove */
   border: none;
-  /* border remove */
   outline: none;
-  /* outline remove */
   box-shadow: none;
-  /* agar shadow lagi ho to wo bhi remove */
   cursor: pointer;
-  /* pointer cursor rakho for better UX */
   padding: 0;
-  /* extra space hatao */
   font-size: 40px;
 }
 
@@ -1051,7 +1045,6 @@ textarea.input-field {
   .about .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* align-items: center; */
     gap: 30px;
   }
 
@@ -1114,7 +1107,6 @@ textarea.input-field {
 
   .container {
     max-width: 1140px;
-    align-items: center;
     padding-inline: 15px;
   }
 
