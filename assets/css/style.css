@@ -216,8 +216,7 @@ body {
 }
 
 .section-text {
-  font-size: var(--fs-6);
-  /* max-width: 70ch; */
+  font-size: var(--fs-5);
 }
 
 .grid-list {
@@ -719,7 +718,7 @@ textarea.input-field {
 /**
  * responsive for larger than 575px screen
  */
-@media (min-width: 574px) {
+@media (max-width: 574px) {
 
   .service,
   .about,
