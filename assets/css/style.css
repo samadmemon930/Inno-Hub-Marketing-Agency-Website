@@ -823,9 +823,10 @@ textarea.input-field {
    * REUSED STYLE
    */
 
-  /* .container {
+  .container {
     max-width: 720px;
-  } */
+    padding-inline: 15px;
+  }
 
   .grid-list {
     column-gap: 25px;
