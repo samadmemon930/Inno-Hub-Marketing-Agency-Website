@@ -154,7 +154,7 @@ body {
 .btn {
   max-width: max-content;
   color: var(--white-1);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: var(--fw-700);
   padding: 10px 30px;
   border-radius: var(--radius-5);
@@ -725,7 +725,7 @@ textarea.input-field {
 /**
  * responsive for larger than 575px screen
  */
-@media (min-width: 500px) {
+@media (min-width: 574px) {
 
   .service,
   .about,
@@ -733,8 +733,8 @@ textarea.input-field {
     padding-block: 100px;
   }
 
-  .card-text {
-    font-size: 14px;
+  .service-card .card-text {
+    font-size: 16px;
   }
 }
 
