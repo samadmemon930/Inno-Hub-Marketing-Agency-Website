@@ -823,10 +823,10 @@ textarea.input-field {
    * REUSED STYLE
    */
 
-  .container {
+  /* .container {
     max-width: 720px;
-    padding-inline: 0;
-  }
+    padding-inline: 50px;
+  } */
 
   .grid-list {
     column-gap: 25px;
@@ -929,6 +929,7 @@ textarea.input-field {
 
   .container {
     max-width: 960px;
+    padding-inline: 15px;
   }
 
   .grid-list {
@@ -1112,6 +1113,7 @@ textarea.input-field {
   .container {
     max-width: 1140px;
     align-items: center;
+    padding-inline: 15px;
   }
 
   .grid-list{
